@@ -1,0 +1,94 @@
+.wrapper {
+    padding-top: 30px;
+}
+
+#name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+#dept {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+#ratings {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+.name {
+    margin-left: 60px;
+}
+.classDepartment {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.rating {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+label{
+    font-size: 20px;
+}
+
+input{
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: yellow;
+    border: none;
+}
+#submit {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 30px;
+    margin-top: 50px;
+    background-color: plum;
+    border: none;
+}
+
+#submit:hover {
+    background-color: rgb(242, 136, 196);
+}
+
+#line {
+    width: 1300px;
+    border: 2px solid black;
+    margin-top: 60px;
+}
+
+.result {
+    width: 1400px;
+    margin: auto;
+    background-color: rgb(140, 167, 211);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+
+}
+
+.containsResult {
+    height: 50px;
+    width: 45%;
+    border-radius: 35px;
+    border: 2px solid rgb(26, 25, 25);
+    background-color: #11d88c;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+span{
+    color: rgb(93, 0, 255);
+}
